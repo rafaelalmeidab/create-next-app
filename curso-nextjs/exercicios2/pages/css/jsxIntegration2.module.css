@@ -1,0 +1,19 @@
+#integration{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.gray{
+    color: gray;
+}
+
+.green{
+    color: green;
+    background-color: yellow;
+}
+
+.blue{
+    color: blue;
+    background-color: red;
+}
