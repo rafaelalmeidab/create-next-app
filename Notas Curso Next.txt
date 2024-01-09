@@ -1,0 +1,6 @@
+- Criando projeto em Next
+mkdir nome-pasta
+npx create-next-app@latest nome-projeto (dentro da pasta criada)
+
+- Rodar projeto local
+npm run dev
