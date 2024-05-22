@@ -1,4 +1,5 @@
 import { useState } from "react";
+import DisplayCounter from "@/components/DisplayCounter";
 
 export default function counter(){
   
@@ -28,7 +29,7 @@ export default function counter(){
       <h1>Counter</h1>
       <button id='1' style={buttonStyleCSS} onClick={clickCounting}>+</button>
       <button id='2' style={buttonStyleCSS} onClick={clickCounting}>-</button>
-      <span>{x}</span>
+      <DisplayCounter number={x}/>
     </div>
-  );
+  );  
 }
